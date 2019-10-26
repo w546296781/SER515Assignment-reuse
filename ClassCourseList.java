@@ -28,6 +28,7 @@ public class ClassCourseList extends ArrayList<Course> {
 				theCourse = new Course(strCourseName, 0);
 //      theCourse.CourseName= strCourseName;
 				add(theCourse);
+				file.close();
 			}
 		} catch (Exception ee) {
 			;
